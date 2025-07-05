@@ -28,9 +28,9 @@ Havel's Kitchen é uma API desenvolvida em Java com Spring Boot que oferece uma 
 - ✅ Cadastrar uma nova receita
 - ✅ Listar todas as receitas
 - ✅ Buscar uma receita por ID
+- ✅ Deletar uma receita (em breve)
+- 🚧 Relacionar ingredientes com receitas (em prod)
 - ⏳ Atualizar uma receita (em breve)
-- ⏳ Deletar uma receita (em breve)
-- 🚧 Relacionar ingredientes com receitas (em breve)
 - 🧪 Validação de dados (em breve)
 
 ---
@@ -44,5 +44,5 @@ Cada receita possui:
 - `description`: descrição rápida
 - `difficulty`: enum de dificuldade (ex: EASY, MEDIUM,HARD e BOSS)
 - `baseIngredients`: lista dos ingredientes principais
-- `soulCount`: nível de “escalabilidade” da receita
-- `createdAt` / `updatedAt`: timestamps do universo sombrio
+- `soulCount`: a quantas pessoas(souls) a receita serve
+- `createdAt` / `updatedAt`: tempo da criação e atualização da receita
