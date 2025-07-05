@@ -42,7 +42,7 @@ Cada receita possui:
 - `id`: identificador único
 - `name`: nome da receita
 - `description`: descrição rápida
-- `difficulty`: enum de dificuldade (ex: EASY, MEDIUM, BOSS)
+- `difficulty`: enum de dificuldade (ex: EASY, MEDIUM,HARD e BOSS)
 - `baseIngredients`: lista dos ingredientes principais
 - `soulCount`: nível de “escalabilidade” da receita
 - `createdAt` / `updatedAt`: timestamps do universo sombrio
